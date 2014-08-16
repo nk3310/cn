@@ -1,0 +1,6 @@
+markdown: rdiscount
+permalink: /:year/:month/:title/
+url: http://nk3310.github.io/cn
+author: nk3310
+pygments: true
+
