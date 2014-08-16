@@ -1,15 +1,19 @@
 ---
 layout: post
-title: ÁªºÏÊ¹ÓÃnetstat taskkill ÖÕÖ¹jekyll server
+title: è”åˆä½¿ç”¨netstat taskkill ç»ˆæ­¢jekyll server
 categories: [technology]
 tags: [jekyll server]
 ---
 
-##ÆğÒò
-Ö´ĞĞjekyll serverÌáÊ¾4000¶Ë¿Ú¼ºÔÚÊ¹ÓÃ¡£
+èµ·å› :
+æ‰§è¡Œjekyll serveræç¤º4000ç«¯å£å·±åœ¨ä½¿ç”¨ã€‚
 
-##²Ù×÷
-* netstat -aon | findstr "4000" ,ÁĞ³öPIDºÅÈçÏÂ£º
+æ“ä½œ:
+
+ 1.
+ netstat -aon | findstr "4000" ,åˆ—å‡ºPIDå·å¦‚ä¸‹ï¼š
  TCP    0.0.0.0:4000           0.0.0.0:0              LISTENING       6652
-* taskkill /F /PID 6652
+
+ 2.
+ taskkill /F /PID 6652
  
