@@ -11,11 +11,10 @@ tags: [jekyll server]
 
 **操作:**
 
- *   >netstat -aon | findstr "4000" , 
-     >
-     >TCP    0.0.0.0:4000           0.0.0.0:0              LISTENING       6652
-
-***
-
- *   >taskkill /F /PID 6652
+ 1, netstat -aon | findstr "4000" , 
+     <pre>
+     TCP    0.0.0.0:4000           0.0.0.0:0              LISTENING       6652
+     </pre>
+     
+ 2,   >taskkill /F /PID 6652
  
