@@ -5,15 +5,17 @@ categories: [technology]
 tags: [jekyll server]
 ---
 
-起因:
+**起因:**
 
 执行jekyll server提示4000端口己在使用。
 
-操作:
+**操作:**
 
  *   >netstat -aon | findstr "4000" , 
      >
      >TCP    0.0.0.0:4000           0.0.0.0:0              LISTENING       6652
+
+***
 
  *   >taskkill /F /PID 6652
  
